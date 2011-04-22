@@ -1,0 +1,15 @@
+-# Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary
+%script(type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js")
+:javascript
+  window.jQuery || document.write("<script src='javascripts/libs/jquery-1.5.1.min.js'>\x3C/script>")
+
+/[if lt IE 7 ]
+  %script(type="text/javascript" src="javascripts/libs/dd_belatedpng.js")
+  :javascript
+    -# Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb
+    DD_belatedPNG.fix("img, .png_bg");
+
+-# Application scripts
+%script(type="text/javascript" src="javascripts/plugins.js")
+%script(type="text/javascript" src="javascripts/script.js")
+
