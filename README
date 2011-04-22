@@ -1,0 +1,15 @@
+Bootstrap a Sinatra application with Html5-boilerplate already include.
+
+Usage:
+- bundle install
+- ruby app.rb
+
+Use:
+- Sinatra : http://www.sinatrarb.com
+- Html5-boilerplate : http://html5boilerplate.com/
+- Haml and Sass : http://haml-lang.com
+
+There is no:
+- database pre-configured
+- models, controllers... Just a plain simple Sinatra app !
+
