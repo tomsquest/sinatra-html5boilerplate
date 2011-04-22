@@ -2,7 +2,7 @@ require 'rubygems'
 require 'sinatra'
 require 'haml'
 require 'sass'
-Dir["lib/**/*.rb"].each {|f| require_relative f}
+Dir["lib/**/*.rb"].each {|f| require "./#{f}"}
 
 #
 # Configuration
