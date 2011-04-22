@@ -1,5 +1,8 @@
 Bootstrap a Sinatra application with Html5-boilerplate already include.
 
+The application is deployable on Heroku.
+See: http://sinatra-html5boilerplate.heroku.com/
+
 Usage:
 - bundle install
 - ruby app.rb
@@ -8,9 +11,9 @@ Use:
 - Sinatra : http://www.sinatrarb.com
 - Html5-boilerplate : http://html5boilerplate.com/
 - Haml and Sass : http://haml-lang.com
-- Partials like in Rails : https://gist.github.com/119874
+- Partials : https://gist.github.com/119874
 
 There is no:
-- database pre-configured
-- models, controllers... Just a plain simple Sinatra app !
+- Database pre-configured
+- Models, controllers... Just a plain simple Sinatra app !
 
