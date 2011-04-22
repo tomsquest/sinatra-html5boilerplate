@@ -8,6 +8,7 @@ Use:
 - Sinatra : http://www.sinatrarb.com
 - Html5-boilerplate : http://html5boilerplate.com/
 - Haml and Sass : http://haml-lang.com
+- Partials like in Rails : https://gist.github.com/119874
 
 There is no:
 - database pre-configured
