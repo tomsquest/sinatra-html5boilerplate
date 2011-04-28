@@ -1,4 +1,5 @@
-Bootstrap a Sinatra application with Html5-boilerplate already include.
+Bootstrap a Sinatra application with Html5-boilerplate already included.
+The app uses Haml and Sass. A partials helper is available
 
 The application is deployable on Heroku.
 See: http://sinatra-html5boilerplate.heroku.com/
